@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5216EDEF28AB762600C2A88A /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216EDEE28AB762600C2A88A /* SixthViewController.swift */; };
+		5216EDF128ABBF9A00C2A88A /* ResuableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216EDF028ABBF9A00C2A88A /* ResuableViewController.swift */; };
 		522E125728A8EA5A0048A275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E125628A8EA5A0048A275 /* AppDelegate.swift */; };
 		522E125928A8EA5A0048A275 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E125828A8EA5A0048A275 /* SceneDelegate.swift */; };
 		522E125B28A8EA5A0048A275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E125A28A8EA5A0048A275 /* ViewController.swift */; };
 		522E125E28A8EA5A0048A275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522E125C28A8EA5A0048A275 /* Main.storyboard */; };
 		522E126028A8EA5C0048A275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522E125F28A8EA5C0048A275 /* Assets.xcassets */; };
 		522E126328A8EA5C0048A275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522E126128A8EA5C0048A275 /* LaunchScreen.storyboard */; };
+		522E126B28A9012F0048A275 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E126A28A9012F0048A275 /* SecondViewController.swift */; };
+		522E126D28A911DB0048A275 /* movieNamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E126C28A911DB0048A275 /* movieNamesCell.swift */; };
+		52890C6A28AA62BF00C234D6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52890C6928AA62BF00C234D6 /* ThirdViewController.swift */; };
+		52890C6C28AA63C300C234D6 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52890C6B28AA63C300C234D6 /* MyCustomTableViewCell.swift */; };
+		52890C6E28AA704900C234D6 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52890C6D28AA704900C234D6 /* MyCollectionViewCell.swift */; };
+		52890C7228AA811E00C234D6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52890C7128AA811E00C234D6 /* Data.swift */; };
+		52A20A4028AE2F3E0095AC55 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A20A3F28AE2F3E0095AC55 /* DetailViewController.swift */; };
+		52A4534E28AE0737000EB611 /* productData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4534D28AE0737000EB611 /* productData.swift */; };
+		52D9ED1F28ACB636005E8EA2 /* NinethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9ED1E28ACB636005E8EA2 /* NinethViewController.swift */; };
+		52D9ED2128ACB7DF005E8EA2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9ED2028ACB7DF005E8EA2 /* MyTableViewCell.swift */; };
+		52D9ED2328ACE08A005E8EA2 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9ED2228ACE08A005E8EA2 /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5216EDEE28AB762600C2A88A /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		5216EDF028ABBF9A00C2A88A /* ResuableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResuableViewController.swift; sourceTree = "<group>"; };
 		522E125328A8EA5A0048A275 /* UI Elements 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Elements 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		522E125628A8EA5A0048A275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522E125828A8EA5A0048A275 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,17 @@
 		522E125F28A8EA5C0048A275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522E126228A8EA5C0048A275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522E126428A8EA5C0048A275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522E126A28A9012F0048A275 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		522E126C28A911DB0048A275 /* movieNamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieNamesCell.swift; sourceTree = "<group>"; };
+		52890C6928AA62BF00C234D6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		52890C6B28AA63C300C234D6 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		52890C6D28AA704900C234D6 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		52890C7128AA811E00C234D6 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = ../../../../../.Trash/Data.swift; sourceTree = "<group>"; };
+		52A20A3F28AE2F3E0095AC55 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		52A4534D28AE0737000EB611 /* productData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productData.swift; sourceTree = "<group>"; };
+		52D9ED1E28ACB636005E8EA2 /* NinethViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethViewController.swift; sourceTree = "<group>"; };
+		52D9ED2028ACB7DF005E8EA2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		52D9ED2228ACE08A005E8EA2 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +85,20 @@
 				522E125628A8EA5A0048A275 /* AppDelegate.swift */,
 				522E125828A8EA5A0048A275 /* SceneDelegate.swift */,
 				522E125A28A8EA5A0048A275 /* ViewController.swift */,
+				522E126A28A9012F0048A275 /* SecondViewController.swift */,
+				522E126C28A911DB0048A275 /* movieNamesCell.swift */,
+				52890C6928AA62BF00C234D6 /* ThirdViewController.swift */,
+				52890C6B28AA63C300C234D6 /* MyCustomTableViewCell.swift */,
+				52890C6D28AA704900C234D6 /* MyCollectionViewCell.swift */,
+				52890C7128AA811E00C234D6 /* Data.swift */,
+				52D9ED2228ACE08A005E8EA2 /* ProductModel.swift */,
+				52A4534D28AE0737000EB611 /* productData.swift */,
+				5216EDF028ABBF9A00C2A88A /* ResuableViewController.swift */,
+				5216EDEE28AB762600C2A88A /* SixthViewController.swift */,
 				522E125C28A8EA5A0048A275 /* Main.storyboard */,
+				52D9ED1E28ACB636005E8EA2 /* NinethViewController.swift */,
+				52A20A3F28AE2F3E0095AC55 /* DetailViewController.swift */,
+				52D9ED2028ACB7DF005E8EA2 /* MyTableViewCell.swift */,
 				522E125F28A8EA5C0048A275 /* Assets.xcassets */,
 				522E126128A8EA5C0048A275 /* LaunchScreen.storyboard */,
 				522E126428A8EA5C0048A275 /* Info.plist */,
@@ -138,9 +177,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522E126B28A9012F0048A275 /* SecondViewController.swift in Sources */,
 				522E125B28A8EA5A0048A275 /* ViewController.swift in Sources */,
+				5216EDF128ABBF9A00C2A88A /* ResuableViewController.swift in Sources */,
+				52890C6E28AA704900C234D6 /* MyCollectionViewCell.swift in Sources */,
+				522E126D28A911DB0048A275 /* movieNamesCell.swift in Sources */,
+				52D9ED2328ACE08A005E8EA2 /* ProductModel.swift in Sources */,
+				52A4534E28AE0737000EB611 /* productData.swift in Sources */,
+				52A20A4028AE2F3E0095AC55 /* DetailViewController.swift in Sources */,
 				522E125728A8EA5A0048A275 /* AppDelegate.swift in Sources */,
+				52D9ED2128ACB7DF005E8EA2 /* MyTableViewCell.swift in Sources */,
+				52D9ED1F28ACB636005E8EA2 /* NinethViewController.swift in Sources */,
+				52890C6A28AA62BF00C234D6 /* ThirdViewController.swift in Sources */,
+				52890C6C28AA63C300C234D6 /* MyCustomTableViewCell.swift in Sources */,
+				52890C7228AA811E00C234D6 /* Data.swift in Sources */,
 				522E125928A8EA5A0048A275 /* SceneDelegate.swift in Sources */,
+				5216EDEF28AB762600C2A88A /* SixthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +337,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23URN99DK2;
 				INFOPLIST_FILE = "UI Elements 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +356,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23URN99DK2;
 				INFOPLIST_FILE = "UI Elements 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
