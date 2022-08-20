@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-
 // Apple Devices
 
 var arrAppleProducts = [
@@ -55,7 +53,6 @@ var tv = AppleProduct(category: "Apple TV",
                                 tv2])
 
 // MacBooks
-
 var macBook1 = Device(title: "MacBook Air 2020",
                       image: ["MacBook Air 2020", "MacBook Air 2020 2", "MacBook Air 2020 3", "MacBook Air 2020 4", "MacBook Air 2020 5"],
                       description: "Apple MacBook Air 2020 is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i3 processor and it comes with 8GB of RAM. The Apple MacBook Air 2020 packs 256GB of SSD storage. Graphics are powered by Integrated Graphics Processor.")

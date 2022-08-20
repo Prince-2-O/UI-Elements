@@ -9,6 +9,7 @@
 import Foundation
 
 struct AppleProduct {
+    //
     var category: String?
     var devices: [Device]?
 }

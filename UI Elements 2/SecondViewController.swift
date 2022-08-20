@@ -77,16 +77,6 @@ extension SecondViewController: UITextFieldDelegate {
     
 }
 
-// MARK: - CollectionView Delegate Methods
-
-extension SecondViewController: UICollectionViewDelegate {
-    
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        pgControl.currentPage = indexPath.row
-    }
-    
-}
-
 // MARK: - CollectionView DataSource Methods
 
 extension SecondViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -110,3 +100,13 @@ extension SecondViewController: UICollectionViewDataSource, UICollectionViewDele
     
 }
 
+
+// MARK: - CollectionView Delegate Methods
+
+extension SecondViewController: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        pgControl.currentPage = indexPath.row
+    }
+    
+}
